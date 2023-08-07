@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.barchasi {
+    background-color: cyan;
+    padding: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text {
+    width: 200px;
+    position: relative;
+    box-shadow: 0 0 10px 2px black;
+    z-index: 1;
+}
+.text:hover .box2 {
+    display: block;
+}
+.text:hover .box4 {
+    display: block;
+}
+.box4 {
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 300px;
+    background-color: white;
+    border: 3px solid black;
+    border: none;
+    box-shadow: 0 0 10px 2px black;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    display: none;
+}
+.box2 {
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 300px;
+    background-color: white;
+    border: 3px solid black;
+    border: none;
+    box-shadow: 0 0 10px 3px black;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    display: none;
+}
+.h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p1 {
+    text-align: center;
+    color: rgb(79, 79, 79);
+    margin-bottom: 20px;
+}
+.p2 {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+.p3 {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(49, 49, 49);
+    margin-bottom: 20px;
+    text-decoration: line-through;
+}
+.knopka {
+    background-color: rgb(42, 41, 41);
+    width: 100%;
+    color: white;
+    padding: 15px;
+    border: none;
+    text-align: center;
+}
